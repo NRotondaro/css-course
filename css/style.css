@@ -1,7 +1,27 @@
+body {
+  background: #cce5ff66;
+  font-size: 1.15rem;
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+}
+
 #title {
-	color: red;
+  color: #ba8509;
+  font-weight: 400;
+  font-family: 'Qwitcher Grypen', cursive;
 }
 
 .subtitle {
-	color: rgb(219, 168, 50);
+  color: #c8941e;
+}
+
+#service-image {
+  height: 400px;
+  width: 70%;
+
+  background: radial-gradient(circle, red 20%, blue 40%, green 40%);
+}
+
+.link {
+  text-decoration: underline;
 }
