@@ -10,10 +10,6 @@ body {
   font-family: 'Qwitcher Grypen', cursive;
 }
 
-.subtitle {
-  color: #c8941e;
-}
-
 #service-image {
   height: 400px;
   width: 70%;
@@ -100,6 +96,16 @@ body {
 .submit-button:hover {
   background-color: rgb(171, 187, 255);
   padding: 20px 30px;
+}
+
+.subtitle {
+  /* animation-name: red-to-black;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+  animation: red-to-black 4s linear 0s 2 alternate-reverse;
 }
 
 @keyframes red-to-black {
